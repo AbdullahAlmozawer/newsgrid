@@ -1,0 +1,30 @@
+.nav-bar .container {
+
+    background-color:white;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr ;
+    align-items: center;
+    
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+.logo{
+    margin-left: 7rem;
+}
+.social a{
+padding: 1rem;
+        
+}
+.current{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+ul{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
