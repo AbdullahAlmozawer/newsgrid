@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +17,8 @@ body{
     line-height: 1,5;
 
 }
+
+
 img{ 
     width: 100%;
 }
@@ -71,6 +74,28 @@ grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     grid-column:2 / span 2;  
+}
+
+footer{
+    background-color: lightgrey;
+}
+
+footer img {
+    width: 150px
+}
+footer a {
+    color: white;
+}
+footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+footer .footer-container > *:last-child{
+    background: #444;
+    grid-column: 1 / span 4;
+    text-align: center;
+
 }
 
 
