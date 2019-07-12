@@ -26,9 +26,12 @@ img{
     width: 70%;
 }
 
-.nav-bar ul{
+ul{
     list-style: none;
 }
+/* .nav-bar ul{
+    list-style: none;
+} */
 .logo{
     margin-left: 7rem;
 }
@@ -77,7 +80,7 @@ grid-gap: 1rem;
 }
 
 footer{
-    background-color: lightgrey;
+    /* border: 1px solid; */
 }
 
 footer img {
@@ -90,11 +93,18 @@ footer .footer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #bbb;
 }
 footer .footer-container > *:last-child{
     background: #444;
     grid-column: 1 / span 4;
+    margin: 0;
+    padding: 3px 0;
     text-align: center;
+    color: white;
+    font-size: 1.25rem;
 
 }
 
